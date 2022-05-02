@@ -1,0 +1,70 @@
+2022-04-06 16:20:30.072  INFO 1852 --- [restartedMain] c.b.s.apirest.BackEndApplication         : Starting BackEndApplication using Java 11.0.12 on DESKTOP-UOD0JJR with PID 1852 (C:\Users\angel\Desktop\BIM\Back-end\target\classes started by angel in C:\Users\angel\Desktop\BIM\Back-end)
+2022-04-06 16:20:30.089  INFO 1852 --- [restartedMain] c.b.s.apirest.BackEndApplication         : No active profile set, falling back to default profiles: default
+2022-04-06 16:20:30.282  INFO 1852 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-06 16:20:30.282  INFO 1852 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-06 16:20:32.485  INFO 1852 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-06 16:20:32.644  INFO 1852 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 141 ms. Found 8 JPA repository interfaces.
+2022-04-06 16:20:34.362  INFO 1852 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 90 (http)
+2022-04-06 16:20:34.386  INFO 1852 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-06 16:20:34.387  INFO 1852 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-04-06 16:20:34.614  INFO 1852 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-06 16:20:34.615  INFO 1852 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4331 ms
+2022-04-06 16:20:35.280  INFO 1852 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-06 16:20:35.444  INFO 1852 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-04-06 16:20:35.819  INFO 1852 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-06 16:20:36.097  INFO 1852 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-06 16:20:36.420  INFO 1852 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-06 16:20:36.447  INFO 1852 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2022-04-06 16:20:37.905 DEBUG 1852 --- [restartedMain] org.hibernate.SQL                        : alter table comments drop foreign key FKk86eqc5twqwejupe5gt06yooh
+2022-04-06 16:20:37.929 DEBUG 1852 --- [restartedMain] org.hibernate.SQL                        : alter table companies drop foreign key FKprchnbb7i17s94bt1eq8h9uwl
+2022-04-06 16:20:37.939 DEBUG 1852 --- [restartedMain] org.hibernate.SQL                        : alter table inboxs drop foreign key FK7o3t8caytub5w4xpndq3ttjm
+2022-04-06 16:20:37.949 DEBUG 1852 --- [restartedMain] org.hibernate.SQL                        : alter table inboxs drop foreign key FKiov2jpr2yj417aaqem3g5sv4x
+2022-04-06 16:20:37.959 DEBUG 1852 --- [restartedMain] org.hibernate.SQL                        : alter table messages drop foreign key FKqf4x2edif9k6sn2e0hlnwloh9
+2022-04-06 16:20:37.968 DEBUG 1852 --- [restartedMain] org.hibernate.SQL                        : alter table messages drop foreign key FK26kk920pjct9e18bxo14x5fqr
+2022-04-06 16:20:37.980 DEBUG 1852 --- [restartedMain] org.hibernate.SQL                        : alter table messages drop foreign key FKajxa2cfnvxxo9oh3tonex2xkq
+2022-04-06 16:20:37.997 DEBUG 1852 --- [restartedMain] org.hibernate.SQL                        : alter table notifications drop foreign key FKantlpul6u8w1frslj5g878rf0
+2022-04-06 16:20:38.006 DEBUG 1852 --- [restartedMain] org.hibernate.SQL                        : alter table notifications drop foreign key FKrewgnigbe86pd03kghfohdaw3
+2022-04-06 16:20:38.015 DEBUG 1852 --- [restartedMain] org.hibernate.SQL                        : alter table notifications drop foreign key FK4q96p9g0pkd2vbk5yw9uijaj8
+2022-04-06 16:20:38.025 DEBUG 1852 --- [restartedMain] org.hibernate.SQL                        : drop table if exists chats
+2022-04-06 16:20:38.032 DEBUG 1852 --- [restartedMain] org.hibernate.SQL                        : drop table if exists comments
+2022-04-06 16:20:38.036 DEBUG 1852 --- [restartedMain] org.hibernate.SQL                        : drop table if exists companies
+2022-04-06 16:20:38.041 DEBUG 1852 --- [restartedMain] org.hibernate.SQL                        : drop table if exists inboxs
+2022-04-06 16:20:38.045 DEBUG 1852 --- [restartedMain] org.hibernate.SQL                        : drop table if exists industries
+2022-04-06 16:20:38.050 DEBUG 1852 --- [restartedMain] org.hibernate.SQL                        : drop table if exists messages
+2022-04-06 16:20:38.055 DEBUG 1852 --- [restartedMain] org.hibernate.SQL                        : drop table if exists notifications
+2022-04-06 16:20:38.061 DEBUG 1852 --- [restartedMain] org.hibernate.SQL                        : drop table if exists persons
+2022-04-06 16:20:38.066 DEBUG 1852 --- [restartedMain] org.hibernate.SQL                        : drop table if exists posts
+2022-04-06 16:20:38.072 DEBUG 1852 --- [restartedMain] org.hibernate.SQL                        : drop table if exists type_msgs
+2022-04-06 16:20:38.082 DEBUG 1852 --- [restartedMain] org.hibernate.SQL                        : create table chats (id integer not null auto_increment, create_at date, delete_at date, name varchar(60), update_at date, primary key (id)) engine=InnoDB
+2022-04-06 16:20:38.103 DEBUG 1852 --- [restartedMain] org.hibernate.SQL                        : create table comments (id bigint not null auto_increment, text varchar(255), pc_fid bigint, primary key (id)) engine=InnoDB
+2022-04-06 16:20:38.122 DEBUG 1852 --- [restartedMain] org.hibernate.SQL                        : create table companies (id integer not null auto_increment, name varchar(50) not null, num_ext varchar(60) not null, num_int varchar(60) not null, size varchar(25) not null, street varchar(60) not null, industries_id integer not null, primary key (id)) engine=InnoDB
+2022-04-06 16:20:38.143 DEBUG 1852 --- [restartedMain] org.hibernate.SQL                        : create table inboxs (id integer not null auto_increment, create_at date not null, delete_at date, update_at date, chats_id integer, persons_id integer, primary key (id)) engine=InnoDB
+2022-04-06 16:20:38.162 DEBUG 1852 --- [restartedMain] org.hibernate.SQL                        : create table industries (id integer not null auto_increment, create_at date, delete_at date, industrie varchar(60) not null, update_at date, uuid binary(255) not null, primary key (id)) engine=InnoDB
+2022-04-06 16:20:38.178 DEBUG 1852 --- [restartedMain] org.hibernate.SQL                        : create table messages (id integer not null auto_increment, create_at datetime not null, delete_at date, message longtext not null, update_at date, url varchar(2000), chats_id integer not null, persons_id integer not null, type_msgs_id integer not null, primary key (id)) engine=InnoDB
+2022-04-06 16:20:38.203 DEBUG 1852 --- [restartedMain] org.hibernate.SQL                        : create table notifications (id integer not null auto_increment, create_at datetime not null, description varchar(100), display bit, title varchar(50) not null, update_at date, chats_id integer, receiver_id integer not null, sender_id integer, primary key (id)) engine=InnoDB
+2022-04-06 16:20:38.229 DEBUG 1852 --- [restartedMain] org.hibernate.SQL                        : create table persons (id integer not null auto_increment, create_at date, delete_at date, first_name varchar(60) not null, name varchar(60) not null, update_at date, primary key (id)) engine=InnoDB
+2022-04-06 16:20:38.250 DEBUG 1852 --- [restartedMain] org.hibernate.SQL                        : create table posts (id bigint not null auto_increment, description varchar(255), title varchar(255), primary key (id)) engine=InnoDB
+2022-04-06 16:20:38.269 DEBUG 1852 --- [restartedMain] org.hibernate.SQL                        : create table type_msgs (id integer not null auto_increment, create_at date not null, delete_at date, name varchar(50) not null, update_at date, primary key (id)) engine=InnoDB
+2022-04-06 16:20:38.287 DEBUG 1852 --- [restartedMain] org.hibernate.SQL                        : alter table industries add constraint UK_230tf70s3ag8m0whvgb6wh3a unique (uuid)
+2022-04-06 16:20:38.299 DEBUG 1852 --- [restartedMain] org.hibernate.SQL                        : alter table comments add constraint FKk86eqc5twqwejupe5gt06yooh foreign key (pc_fid) references posts (id)
+2022-04-06 16:20:38.338 DEBUG 1852 --- [restartedMain] org.hibernate.SQL                        : alter table companies add constraint FKprchnbb7i17s94bt1eq8h9uwl foreign key (industries_id) references industries (id)
+2022-04-06 16:20:38.383 DEBUG 1852 --- [restartedMain] org.hibernate.SQL                        : alter table inboxs add constraint FK7o3t8caytub5w4xpndq3ttjm foreign key (chats_id) references chats (id)
+2022-04-06 16:20:38.424 DEBUG 1852 --- [restartedMain] org.hibernate.SQL                        : alter table inboxs add constraint FKiov2jpr2yj417aaqem3g5sv4x foreign key (persons_id) references persons (id)
+2022-04-06 16:20:38.460 DEBUG 1852 --- [restartedMain] org.hibernate.SQL                        : alter table messages add constraint FKqf4x2edif9k6sn2e0hlnwloh9 foreign key (chats_id) references chats (id)
+2022-04-06 16:20:38.504 DEBUG 1852 --- [restartedMain] org.hibernate.SQL                        : alter table messages add constraint FK26kk920pjct9e18bxo14x5fqr foreign key (persons_id) references persons (id)
+2022-04-06 16:20:38.542 DEBUG 1852 --- [restartedMain] org.hibernate.SQL                        : alter table messages add constraint FKajxa2cfnvxxo9oh3tonex2xkq foreign key (type_msgs_id) references type_msgs (id)
+2022-04-06 16:20:38.587 DEBUG 1852 --- [restartedMain] org.hibernate.SQL                        : alter table notifications add constraint FKantlpul6u8w1frslj5g878rf0 foreign key (chats_id) references chats (id)
+2022-04-06 16:20:38.631 DEBUG 1852 --- [restartedMain] org.hibernate.SQL                        : alter table notifications add constraint FKrewgnigbe86pd03kghfohdaw3 foreign key (receiver_id) references persons (id)
+2022-04-06 16:20:38.666 DEBUG 1852 --- [restartedMain] org.hibernate.SQL                        : alter table notifications add constraint FK4q96p9g0pkd2vbk5yw9uijaj8 foreign key (sender_id) references persons (id)
+2022-04-06 16:20:38.705  INFO 1852 --- [restartedMain] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'file:/C:/Users/angel/Desktop/BIM/Back-end/target/classes/import.sql'
+2022-04-06 16:20:38.706 DEBUG 1852 --- [restartedMain] org.hibernate.SQL                        : insert  into `persons`(`id`,`create_at`,`delete_at`,`name`,first_name,`update_at`) values (1,'2022-01-03',NULL,'Pedro','Sanchez',NULL)
+2022-04-06 16:20:38.709 DEBUG 1852 --- [restartedMain] org.hibernate.SQL                        : insert  into `persons`(`id`,`create_at`,`delete_at`,`name`,first_name,`update_at`) values (2,'2022-01-03',NULL,'Angel','Garcia',NULL)
+2022-04-06 16:20:38.710 DEBUG 1852 --- [restartedMain] org.hibernate.SQL                        : insert  into `persons`(`id`,`create_at`,`delete_at`,`name`,first_name,`update_at`) values (3,'2022-01-03',NULL,'Juan','Azuara',NULL)
+2022-04-06 16:20:38.712 DEBUG 1852 --- [restartedMain] org.hibernate.SQL                        : insert  into `type_msgs`(`id`,`create_at`,`delete_at`,`name`,`update_at`) values (1,'2022-01-03',NULL,'texto',NULL)
+2022-04-06 16:20:38.718  INFO 1852 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-06 16:20:38.733  INFO 1852 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-06 16:20:39.756  WARN 1852 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-06 16:20:40.456  INFO 1852 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-04-06 16:20:40.467  INFO 1852 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-04-06 16:20:40.549  INFO 1852 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 90 (http) with context path ''
+2022-04-06 16:20:40.568  INFO 1852 --- [restartedMain] c.b.s.apirest.BackEndApplication         : Started BackEndApplication in 11.461 seconds (JVM running for 12.771)
